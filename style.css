@@ -43,6 +43,7 @@ background-color: white !important;
     transition: margin-right .5s;
     padding: 16px;
     position: absolute;
+    cursor: pointer;
 }
 .sidenav {
     height: 100%;
@@ -239,18 +240,16 @@ span:nth-child(odd) {
     line-height: 100px;
     margin: 10px;
 }
-/*.box:hover{
+.box:hover{
 	background-color: #b2812c;
 	color: white;
 	opacity: 1;
 	transition: .5s ease;
-	 transform: translate(-50%, -50%);
-  -ms-transform: translate(-50%, -50%);
 }
 span:nth-child(odd):hover{
 	background: #feed7d;
 
-}*/
+}
 h1::first-letter{
 	color: black;
 	font-size: 40px;
@@ -303,11 +302,8 @@ h1::first-letter{
 
 }
 .box:hover{
-      display: block;
-    margin-top: 30px;
-    margin-right: 84px;
-    margin-left: 85px;
-         transform: translate(0%, 0%); 
+    display: block;
+    transform: translate(0%, 0%); 
 
 }
 }
@@ -344,11 +340,8 @@ h1::first-letter{
 
 }
 .box:hover{
-      display: block;
-    margin-top: 30px;
-    margin-right: 84px;
-    margin-left: 85px;
-         transform: translate(0%, 0%); 
+     display: block;
+    transform: translate(0%, 0%); 
 
 }
 }
@@ -389,9 +382,6 @@ h1::first-letter{
 
 .box:hover{
     display: block;
-    margin-top: 30px;
-    margin-right: 84px;
-    margin-left: 85px;
     transform: translate(0%, 0%); 
 
 }
@@ -414,7 +404,6 @@ h1::first-letter{
 }
 
 
-*/*/
 
 
 
