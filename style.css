@@ -152,17 +152,20 @@ background-color: white !important;
     cursor: pointer;
 }
 .section2{
-	height: 70vh;
 	background-color: white;
     overflow: hidden;
+    display: table;
+
 }
 .first-section{
-	float: left;
 	width: 35%;
+    display: table-cell;
+
 }
 .second-section{
-	float: left;
 	width: 65%;
+    display: table-cell;
+    vertical-align: top;
 }
 .img{
 	width: 280px;
@@ -303,8 +306,8 @@ h1::first-letter{
 }
 }
 @media screen and (max-width: 412px) {
-    .first-section1 {
-   
+.first-section1 {
+     display: table-caption;
     width: 100%;
 }
 .about-text{
@@ -320,6 +323,7 @@ h1::first-letter{
 }
 .second-section{
     width: 100%;
+     display: table-caption;
 }
 #section4{
     margin-top: 150%;
@@ -363,7 +367,7 @@ h1::first-letter{
     width: 100%;
 }
 #section4{
-    margin-top: 175%;
+    margin-top: 100%;
 }
 .box{
     display: block;
