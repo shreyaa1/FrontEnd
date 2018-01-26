@@ -89,6 +89,7 @@ background-color: white !important;
     background-repeat: no-repeat;
     background-size: cover;
     padding-top: 80px;
+    flex: 1;
 }
 #main-text{
 	margin: 0px;
@@ -284,10 +285,7 @@ h1::first-letter{
 .second-section{
     width: 100%;
 }
-#section4{
-    margin-top: 260%;
-    width: 111%;
-}
+
 .box-wrapper{
     padding-top: 10px;
 }
@@ -325,9 +323,7 @@ h1::first-letter{
 .second-section{
     width: 100%;
     }
-#section4{
-    margin-top: 150%;
-}
+
 .box-wrapper{
     padding-top: 10px;
 }
@@ -367,9 +363,7 @@ h1::first-letter{
 .second-section{
     width: 100%;
   }
-#section4{
-    margin-top: 100%;
-}
+
 .box{
     display: block;
     margin-top: 20px;
