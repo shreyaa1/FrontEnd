@@ -97,7 +97,7 @@ background-color: white !important;
     color: white;
     padding-top: 225px;
     padding-left: 10px;
-    padding-right: 10px;s
+    padding-right: 10px;
 }
 .first-contain{
 	text-align: center;
@@ -270,7 +270,7 @@ h1::first-letter{
     padding-top: 0px;
 }
 #section1{
-        width: 111%;
+        width: 100%;
 }
 .first-section {
     float: left;
@@ -347,10 +347,10 @@ h1::first-letter{
 
 @media screen and (max-width: 375px) {
     #section1{
-        width: 110%;
+        width: 100%;
     }
     #section4{
-        width: 110%;
+        width: 100%;
     }
 }
 @media screen and (max-width: 414px) {
