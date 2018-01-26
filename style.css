@@ -235,25 +235,206 @@ h1::first-letter{
 	float: left;
 	width: 35%;
 }
-@media only screen and (max-width: 700px) {
 
-	#section1{
-		width: 100%;
-		height: auto;
-	}
-	.first-section {
-     float: left; 
+@media screen and (max-width: 380px) {
+
+.first-section1 {
+    float: left;
+    width: 100%;
+}
+.about-us-text {
+    font-size: 24px;
+    letter-spacing: 1px;
+    padding-right: 16px;
+}
+
+.about-text{
+    padding-top: 0px;
+}
+#section1{
+        width: 111%;
+}
+.first-section {
+    float: left;
     width: 100%;
 }
 .second-section{
-	float: left;
-	width: 100%;
+    width: 100%;
 }
-.img{
-	width: 100%
-	height: auto;
+#section4{
+    margin-top: 260%;
+    width: 111%;
+}
+.boxSet{
+    padding-top: 10px;
+}
+.box1{
+    display: block;
+    margin-top: 30px;
+    margin-right: 84px;
+    margin-left: 85px;
+
+}
+.box1:hover{
+      display: block;
+    margin-top: 30px;
+    margin-right: 84px;
+    margin-left: 85px;
+         transform: translate(0%, 0%); 
+
 }
 }
+@media screen and (max-width: 412px) {
+    .first-section1 {
+    float: left;
+    width: 100%;
+}
+.about-text{
+    padding-top: 0px;
+}
+.about-us-text {
+    font-size: 18px;
+    letter-spacing: 1px;
+    padding-right: 16px;
+}
+.first-section {
+    float: left;
+    width: 100%;
+}
+.second-section{
+    width: 100%;
+}
+#section4{
+    margin-top: 150%;
+}
+.boxSet{
+    padding-top: 10px;
+}
+.box1{
+    display: block;
+    margin-top: 30px;
+    margin-right: 84px;
+    margin-left: 85px;
+
+}
+.box1:hover{
+      display: block;
+    margin-top: 30px;
+    margin-right: 84px;
+    margin-left: 85px;
+         transform: translate(0%, 0%); 
+
+}
+}
+
+@media screen and (max-width: 375px) {
+    #section1{
+        width: 110%;
+    }
+    #section4{
+        width: 110%;
+    }
+}
+@media screen and (max-width: 414px) {
+   .first-section1 {
+       float: left;
+       width: 100%;
+}
+.first-section {
+    float: left;
+    width: 100%;
+}
+.second-section{
+    width: 100%;
+}
+#section4{
+    margin-top: 175%;
+}
+.box1{
+    display: block;
+    margin-top: 20px;
+    margin-right: 84px;
+    margin-left: 85px;
+
+}
+.box1:hover{
+    display: block;
+    margin-top: 30px;
+    margin-right: 84px;
+    margin-left: 85px;
+    transform: translate(0%, 0%); 
+
+}
+.boxSet{
+    padding-top: 50px;
+}
+.about-us-text {
+    font-size: 19px;
+    letter-spacing: 1px;
+    padding-right: 5px;
+    padding-left: 5px;
+}
+.about-text{
+    padding-top: 0px;
+}
+.sidenav a{
+    font-size: 25px;
+}
+}
+
+@media screen and (max-width: 786px) {
+   /* #section4{
+     width: 120%;
+
+    }
+    #section1{
+        width: 120%;
+    }
+       */ 
+  /*  #main-text{
+        font-size: 50px;
+    }
+    #model-button{
+        font-size: 30px;
+    }
+      .first-section1 {
+       float: left;
+       width: 100%;
+       text-align: center;
+}
+     .first-section {
+       float: left;
+       width: 100%;
+       text-align: center;
+}
+     .second-section{
+       width: 100%;
+       text-align: center;
+}
+     .second-section2{
+       margin-left: 160px;
+}
+     #section4{
+       margin-top: 60%;
+}
+     .about-us-text {
+       font-size: 25px;
+}
+ .about-us-text {
+    font-size: 30px;
+    letter-spacing: 1px;
+    padding-right: 15px;
+    padding-left: 15px;
+}
+.about-text{
+    padding-top: 0px;
+}
+.sidenav a{
+    font-size: 40px;
+}*/
+
+}
+
 
 
 
