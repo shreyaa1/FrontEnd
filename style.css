@@ -295,9 +295,7 @@ h1::first-letter{
 }
 .box{
     display: block;
-    margin-top: 30px;
-    margin-right: 84px;
-    margin-left: 85px;
+  
 
 }
 .box:hover{
@@ -336,9 +334,7 @@ h1::first-letter{
 }
 .box{
     display: block;
-    margin-top: 30px;
-    margin-right: 84px;
-    margin-left: 85px;
+   
 
 }
 .box:hover{
@@ -374,17 +370,16 @@ h1::first-letter{
 .second-section{
     width: 100%;
   }
+  .section2{
+    display: block;
+}
 
 .box{
     display: block;
-    margin-top: 20px;
-    margin-right: 84px;
-    margin-left: 85px;
+ 
 
 }
-.section2{
-    display: block;
-}
+
 .box:hover{
     display: block;
     margin-top: 30px;
