@@ -258,7 +258,7 @@ h1::first-letter{
 @media screen and (max-width: 380px) {
 
 .first-section1 {
-    float: left;
+  
     width: 100%;
 }
 .about-us-text {
@@ -274,8 +274,7 @@ h1::first-letter{
         width: 100%;
 }
 .first-section {
-    float: left;
-    width: 100%;
+       width: 100%;
 }
 .second-section{
     width: 100%;
@@ -305,7 +304,7 @@ h1::first-letter{
 }
 @media screen and (max-width: 412px) {
     .first-section1 {
-    float: left;
+   
     width: 100%;
 }
 .about-text{
@@ -317,7 +316,6 @@ h1::first-letter{
     padding-right: 16px;
 }
 .first-section {
-    float: left;
     width: 100%;
 }
 .second-section{
@@ -356,12 +354,10 @@ h1::first-letter{
 }
 @media screen and (max-width: 414px) {
    .first-section1 {
-       float: left;
-       width: 100%;
+     width: 100%;
 }
 .first-section {
-    float: left;
-    width: 100%;
+      width: 100%;
 }
 .second-section{
     width: 100%;
