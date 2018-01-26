@@ -234,10 +234,10 @@ span:nth-child(odd) {
 }
 .box{
     border: 2px solid #fff;
-    padding: 50px;
-    margin-left: 20px;
+    flex: 1;
+    line-height: 100px;
 }
-.box:hover{
+/*.box:hover{
 	background-color: #b2812c;
 	color: white;
 	opacity: 1;
@@ -248,7 +248,7 @@ span:nth-child(odd) {
 span:nth-child(odd):hover{
 	background: #feed7d;
 
-}
+}*/
 h1::first-letter{
 	color: black;
 	font-size: 40px;
