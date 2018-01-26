@@ -292,9 +292,11 @@ h1::first-letter{
 
 .box-wrapper{
     padding-top: 10px;
+    display: block;
 }
 .box{
     display: block;
+    margin: 10px;
   
 
 }
@@ -331,9 +333,11 @@ h1::first-letter{
 
 .box-wrapper{
     padding-top: 10px;
+    display: block;
 }
 .box{
     display: block;
+    margin: 10px;
    
 
 }
@@ -376,6 +380,7 @@ h1::first-letter{
 
 .box{
     display: block;
+    margin: 10px;
  
 
 }
@@ -389,7 +394,8 @@ h1::first-letter{
 
 }
 .box-wrapper{
-    padding-top: 50px;
+    padding-top: 10px;
+    display: block;
 }
 .about-us-text {
     font-size: 19px;
