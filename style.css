@@ -180,6 +180,10 @@ background-color: white !important;
      background-color: white;
 
 }
+#section4{
+        width: 100%;
+        overflow: hidden;
+    }
 h3{
 	font-size: 30px;
     color: #3498db;
@@ -225,8 +229,8 @@ span:nth-child(odd) {
     color: black;
 }
 .box-wrapper{
-	padding-top: 366px;
     text-align: center;
+    display: flex;
 }
 .box{
     border: 2px solid #fff;
@@ -354,6 +358,7 @@ h1::first-letter{
     }
     #section4{
         width: 100%;
+        overflow: hidden;
     }
     .section2{
     display: block;
