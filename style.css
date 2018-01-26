@@ -309,6 +309,9 @@ h1::first-letter{
 .first-section1 {
      width: 100%;
 }
+.section2{
+    display: block;
+}
 .about-text{
     padding-top: 0px;
 }
@@ -352,6 +355,9 @@ h1::first-letter{
     #section4{
         width: 100%;
     }
+    .section2{
+    display: block;
+}
 }
 @media screen and (max-width: 414px) {
    .first-section1 {
@@ -370,6 +376,9 @@ h1::first-letter{
     margin-right: 84px;
     margin-left: 85px;
 
+}
+.section2{
+    display: block;
 }
 .box:hover{
     display: block;
