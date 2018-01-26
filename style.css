@@ -1,3 +1,5 @@
+
+html { box-sizing: border-box; } *, *:before, *:after { box-sizing: inherit; }
 body{
 	margin: 0px;
 }
@@ -14,6 +16,17 @@ header{
 h1{
 	margin: 0px;
 }
+.close{
+    background: #fff;
+box-shadow: 1px 1px 1px 1px grey;
+padding: 10px;
+line-height: 15px;
+border-radius: 20px;
+margin-top: -35px;
+margin-right: -35px;
+max-width: 500px;
+background-color: white !important;
+}
 
 .menu{
     width: 35px;
@@ -25,7 +38,7 @@ h1{
 #menu{
 	display: inline;
     position: absolute;
-    right: 52px;
+    right: 20px;
     margin-top: -73px;
     transition: margin-right .5s;
     padding: 16px;
@@ -75,6 +88,7 @@ h1{
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
+    padding-top: 80px;
 }
 #main-text{
 	margin: 0px;
@@ -82,6 +96,8 @@ h1{
     font-size: 30px;
     color: white;
     padding-top: 225px;
+    padding-left: 10px;
+    padding-right: 10px;s
 }
 .first-contain{
 	text-align: center;
@@ -119,6 +135,8 @@ h1{
     padding: 20px;
     border: 1px solid #888;
     width: 80%;
+    max-width: 500px;
+    border-radius: 3px;
 }
 
 .close {
@@ -133,7 +151,7 @@ h1{
     text-decoration: none;
     cursor: pointer;
 }
-#section2{
+.section2{
 	height: 70vh;
 	background-color: white;
 }
@@ -202,16 +220,16 @@ span:nth-child(odd) {
     background: #b2812c;
     color: black;
 }
-.boxSet{
+.box-wrapper{
 	padding-top: 366px;
     text-align: center;
 }
-.box1{
+.box{
     border: 2px solid #fff;
     padding: 50px;
     margin-left: 20px;
 }
-.box1:hover{
+.box:hover{
 	background-color: #b2812c;
 	color: white;
 	opacity: 1;
@@ -224,7 +242,7 @@ span:nth-child(odd):hover{
 
 }
 h1::first-letter{
-	color: white;
+	color: black;
 	font-size: 40px;
 }
 .first-section1{
@@ -265,17 +283,17 @@ h1::first-letter{
     margin-top: 260%;
     width: 111%;
 }
-.boxSet{
+.box-wrapper{
     padding-top: 10px;
 }
-.box1{
+.box{
     display: block;
     margin-top: 30px;
     margin-right: 84px;
     margin-left: 85px;
 
 }
-.box1:hover{
+.box:hover{
       display: block;
     margin-top: 30px;
     margin-right: 84px;
@@ -307,17 +325,17 @@ h1::first-letter{
 #section4{
     margin-top: 150%;
 }
-.boxSet{
+.box-wrapper{
     padding-top: 10px;
 }
-.box1{
+.box{
     display: block;
     margin-top: 30px;
     margin-right: 84px;
     margin-left: 85px;
 
 }
-.box1:hover{
+.box:hover{
       display: block;
     margin-top: 30px;
     margin-right: 84px;
@@ -350,14 +368,14 @@ h1::first-letter{
 #section4{
     margin-top: 175%;
 }
-.box1{
+.box{
     display: block;
     margin-top: 20px;
     margin-right: 84px;
     margin-left: 85px;
 
 }
-.box1:hover{
+.box:hover{
     display: block;
     margin-top: 30px;
     margin-right: 84px;
@@ -365,7 +383,7 @@ h1::first-letter{
     transform: translate(0%, 0%); 
 
 }
-.boxSet{
+.box-wrapper{
     padding-top: 50px;
 }
 .about-us-text {
