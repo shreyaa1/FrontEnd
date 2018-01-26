@@ -154,17 +154,16 @@ background-color: white !important;
 .section2{
 	background-color: white;
     overflow: hidden;
-    display: table;
+    display: flex;
 
 }
 .first-section{
 	width: 35%;
-    display: table-cell;
+    
 
 }
 .second-section{
 	width: 65%;
-    display: table-cell;
     vertical-align: top;
 }
 .img{
@@ -264,6 +263,9 @@ h1::first-letter{
   
     width: 100%;
 }
+.section2{
+    display: block;
+}
 .about-us-text {
     font-size: 24px;
     letter-spacing: 1px;
@@ -307,8 +309,7 @@ h1::first-letter{
 }
 @media screen and (max-width: 412px) {
 .first-section1 {
-     display: table-caption;
-    width: 100%;
+     width: 100%;
 }
 .about-text{
     padding-top: 0px;
@@ -320,11 +321,10 @@ h1::first-letter{
 }
 .first-section {
     width: 100%;
-}
+   }
 .second-section{
     width: 100%;
-     display: table-caption;
-}
+    }
 #section4{
     margin-top: 150%;
 }
@@ -351,6 +351,7 @@ h1::first-letter{
 @media screen and (max-width: 375px) {
     #section1{
         width: 100%;
+
     }
     #section4{
         width: 100%;
@@ -362,10 +363,10 @@ h1::first-letter{
 }
 .first-section {
       width: 100%;
-}
+      }
 .second-section{
     width: 100%;
-}
+  }
 #section4{
     margin-top: 100%;
 }
