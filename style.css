@@ -159,13 +159,13 @@ background-color: white !important;
 
 }
 .first-section{
-	width: 35%;
+	    flex: 1;
     
 
 }
 .second-section{
-	width: 65%;
     vertical-align: top;
+    flex: 1;
 }
 .img{
 	width: 280px;
@@ -396,59 +396,8 @@ h1::first-letter{
 }
 }
 
-@media screen and (max-width: 786px) {
-   /* #section4{
-     width: 120%;
 
-    }
-    #section1{
-        width: 120%;
-    }
-       */ 
-  /*  #main-text{
-        font-size: 50px;
-    }
-    #model-button{
-        font-size: 30px;
-    }
-      .first-section1 {
-       float: left;
-       width: 100%;
-       text-align: center;
-}
-     .first-section {
-       float: left;
-       width: 100%;
-       text-align: center;
-}
-     .second-section{
-       width: 100%;
-       text-align: center;
-}
-     .second-section2{
-       margin-left: 160px;
-}
-     #section4{
-       margin-top: 60%;
-}
-     .about-us-text {
-       font-size: 25px;
-}
- .about-us-text {
-    font-size: 30px;
-    letter-spacing: 1px;
-    padding-right: 15px;
-    padding-left: 15px;
-}
-.about-text{
-    padding-top: 0px;
-}
-.sidenav a{
-    font-size: 40px;
-}*/
-
-}
-
+*/*/
 
 
 
