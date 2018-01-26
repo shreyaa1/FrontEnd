@@ -231,11 +231,13 @@ span:nth-child(odd) {
 .box-wrapper{
     text-align: center;
     display: flex;
+    margin-top: 100px;
 }
 .box{
     border: 2px solid #fff;
     flex: 1;
     line-height: 100px;
+    margin: 10px;
 }
 /*.box:hover{
 	background-color: #b2812c;
